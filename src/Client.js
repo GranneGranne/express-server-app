@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState, useReducer, useEffect } from "react"
-import Nappain from './Nappain';
-import axios from 'axios' // npm install axios , jos ei ole jo ladattu
-import { getDefaultNormalizer } from '@testing-library/react';
+import axios from 'axios'
+
+
+
 
 const AppClient = () =>{
   const [data, setData]=useState("")
